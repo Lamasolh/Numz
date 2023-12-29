@@ -1,0 +1,389 @@
+import React, { useState } from 'react'
+import { StyleSheet, Text, View, TextInput, TouchableOpacity, Image } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
+const Mbtns =props=> {
+
+  const navigation=useNavigation();
+  const [color, setcolor] = useState("black");
+  const [color2, setcolor2] = useState("black");
+  const [color3, setcolor3] = useState("black");
+  const [color4, setcolor4] = useState("black");
+  const [color5, setcolor5] = useState("black");
+  const [color6, setcolor6] = useState("black");
+  const [color7, setcolor7] = useState("black");
+  const [color8, setcolor8] = useState("black");
+  const [color9, setcolor9] = useState("black");
+  const [color10, setcolor10] = useState("black");
+
+
+  const [backgcolor, setbackgcolor] = useState("#E5E5E5");
+  const [backgcolor2, setbackgcolor2] = useState("#E5E5E5");
+  const [backgcolor3, setbackgcolor3] = useState("#E5E5E5");
+  const [backgcolor4, setbackgcolor4] = useState("#E5E5E5");
+  const [backgcolor5, setbackgcolor5] = useState("#E5E5E5");
+  const [backgcolor6, setbackgcolor6] = useState("#E5E5E5");
+  const [backgcolor7, setbackgcolor7] = useState("#E5E5E5");
+  const [backgcolor8, setbackgcolor8] = useState("#E5E5E5");
+  const [backgcolor9, setbackgcolor9] = useState("#E5E5E5");
+  const [backgcolor10, setbackgcolor10] = useState("#E5E5E5");
+
+  return (
+
+
+    <>
+<View style={{marginTop:"8%",marginLeft:"10%"}}>
+        <Text style={{fontWeight:"bold"}}>Sep 10</Text>
+    </View>
+<View style={styles.container}>
+
+    
+
+    <TouchableOpacity 
+            
+            style={{  width:"20%",
+            backgroundColor:backgcolor,
+            height:30,
+            borderRadius:5,
+            elevation:5,
+            justifyContent:"center",
+            alignItems:"center",
+            }}
+            onPress={() => {  setcolor("#FFFFFF"),setbackgcolor("#00A081"), setcolor2("black")
+            ,setbackgcolor2("#E5E5E5"),
+            setcolor4("black"),setbackgcolor4("#E5E5E5") , setcolor5("black"),setbackgcolor5("#E5E5E5")
+            ,setcolor6("black"),setbackgcolor6("#E5E5E5"), setcolor7("black"),setbackgcolor7("#E5E5E5")
+            ,  setcolor8("black"),setbackgcolor8("#E5E5E5") ,
+            setcolor9("black"),setbackgcolor9("#E5E5E5"),
+            setcolor10("black"),setbackgcolor10("#E5E5E5")}}>
+         
+    <Text style={{fontWeight:"bold",color:color,}}>11 AM</Text> 
+   
+    </TouchableOpacity>
+
+
+    <TouchableOpacity  style={{  width:"20%",
+            backgroundColor:backgcolor2,
+            height:30,
+            borderRadius:5,
+            elevation:5,
+            justifyContent:"center",
+            alignItems:"center",
+            }}
+            onPress={() => {  setcolor2("white"),setbackgcolor2("#00A081"),
+            setcolor("black"),setbackgcolor("#E5E5E5"),
+            setcolor3("black"),setbackgcolor3("#E5E5E5"),
+            setcolor4("black"),setbackgcolor4("#E5E5E5")
+            , setcolor5("black"),setbackgcolor5("#E5E5E5")
+            ,setcolor6("black"),setbackgcolor6("#E5E5E5"),
+            setcolor7("black"),setbackgcolor7("#E5E5E5")
+            ,  setcolor8("black"),setbackgcolor8("#E5E5E5")
+            ,
+            setcolor9("black"),setbackgcolor9("#E5E5E5"),
+            setcolor10("black"),setbackgcolor10("#E5E5E5")}}>
+
+    <Text style={{fontWeight:"bold",color:color2,}}>1 PM</Text> 
+   
+    </TouchableOpacity>
+
+
+
+    <TouchableOpacity  style={{  width:"20%",
+            backgroundColor:backgcolor3,
+            height:30,
+            borderRadius:5,
+            elevation:5,
+            justifyContent:"center",
+            alignItems:"center",
+            }}
+            onPress={() => { 
+            setcolor("black"),setbackgcolor("#E5E5E5"),
+            setcolor2("black"),setbackgcolor2("#E5E5E5"),
+            setcolor3("white"),setbackgcolor3("#00A081"),
+            setcolor4("black"),setbackgcolor4("#E5E5E5") 
+            , setcolor5("black"),setbackgcolor5("#E5E5E5")
+            ,setcolor6("black"),setbackgcolor6("#E5E5E5"),
+            setcolor7("black"),setbackgcolor7("#E5E5E5")
+            ,  setcolor8("black"),setbackgcolor8("#E5E5E5")
+            ,
+            setcolor9("black"),setbackgcolor9("#E5E5E5"),
+            setcolor10("black"),setbackgcolor10("#E5E5E5")}}>
+
+    <Text style={{fontWeight:"bold",color:color3,}}>3 PM</Text> 
+   
+    </TouchableOpacity>
+
+</View>
+
+<View style={styles.container}>
+
+    
+
+    <TouchableOpacity  style={{  width:"20%",
+            backgroundColor:backgcolor4,
+            height:30,
+            borderRadius:5,
+            elevation:5,
+            justifyContent:"center",
+            alignItems:"center",
+            }}
+            onPress={() => { 
+            setcolor("black"),setbackgcolor("#E5E5E5"),
+            setcolor2("black"),setbackgcolor2("#E5E5E5"),
+            setcolor3("black"),setbackgcolor3("#E5E5E5"),
+            setcolor4("white"),setbackgcolor4("#00A081")
+            , setcolor5("black"),setbackgcolor5("#E5E5E5")
+            ,setcolor6("black"),setbackgcolor6("#E5E5E5"),
+            setcolor7("black"),setbackgcolor7("#E5E5E5")
+            ,  setcolor8("black"),setbackgcolor8("#E5E5E5")
+            ,
+            setcolor9("black"),setbackgcolor9("#E5E5E5"),
+            setcolor10("black"),setbackgcolor10("#E5E5E5")}}>
+
+    <Text style={{fontWeight:"bold",color:color4}}>4 PM</Text> 
+   
+    </TouchableOpacity>
+
+
+    <TouchableOpacity   style={{  width:"20%",
+            backgroundColor:backgcolor5,
+            height:30,
+            borderRadius:5,
+            elevation:5,
+            justifyContent:"center",
+            alignItems:"center",
+            }}
+            onPress={() => { 
+            setcolor("black"),setbackgcolor("#E5E5E5"),
+            setcolor2("black"),setbackgcolor2("#E5E5E5"),
+            setcolor3("black"),setbackgcolor3("#E5E5E5"),
+            setcolor4("black"),setbackgcolor4("#E5E5E5"),
+            setcolor5("white"),setbackgcolor5("#00A081")
+            ,setcolor6("black"),setbackgcolor6("#E5E5E5"),
+            setcolor7("black"),setbackgcolor7("#E5E5E5")
+            ,  setcolor8("black"),setbackgcolor8("#E5E5E5")
+            ,
+            setcolor9("black"),setbackgcolor9("#E5E5E5"),
+            setcolor10("black"),setbackgcolor10("#E5E5E5")}}>
+
+    <Text style={{fontWeight:"bold",color:color5}}>6 PM</Text> 
+   
+    </TouchableOpacity>
+
+
+
+    <TouchableOpacity  style={styles.cards2}>
+
+    <Text style={{fontWeight:"bold"}}></Text> 
+   
+    </TouchableOpacity>
+
+</View>
+
+
+
+
+
+
+
+
+<View style={{marginTop:"8%",marginLeft:"10%"}}>
+        <Text style={{fontWeight:"bold"}}>Sep 11</Text>
+    </View>
+<View style={styles.container}>
+
+    
+
+    <TouchableOpacity  style={{  width:"20%",
+            backgroundColor:backgcolor6,
+            height:30,
+            borderRadius:5,
+            elevation:5,
+            justifyContent:"center",
+            alignItems:"center",
+            }}
+            onPress={() => { 
+            setcolor("black"),setbackgcolor("#E5E5E5"),
+            setcolor2("black"),setbackgcolor2("#E5E5E5"),
+            setcolor3("black"),setbackgcolor3("#E5E5E5"),
+            setcolor4("black"),setbackgcolor4("#E5E5E5"),
+            setcolor5("black"),setbackgcolor5("#E5E5E5"),
+            setcolor6("white"),setbackgcolor6("#00A081"),
+            setcolor7("black"),setbackgcolor7("#E5E5E5")
+            ,  setcolor8("black"),setbackgcolor8("#E5E5E5")
+            ,
+            setcolor9("black"),setbackgcolor9("#E5E5E5"),
+            setcolor10("black"),setbackgcolor10("#E5E5E5")}}>
+
+    <Text style={{fontWeight:"bold",color:color6}}>11 AM</Text> 
+   
+    </TouchableOpacity>
+
+
+    <TouchableOpacity style={{  width:"20%",
+            backgroundColor:backgcolor7,
+            height:30,
+            borderRadius:5,
+            elevation:5,
+            justifyContent:"center",
+            alignItems:"center",
+            }}
+            onPress={() => { 
+            setcolor("black"),setbackgcolor("#E5E5E5"),
+            setcolor2("black"),setbackgcolor2("#E5E5E5"),
+            setcolor3("black"),setbackgcolor3("#E5E5E5"),
+            setcolor4("black"),setbackgcolor4("#E5E5E5"),
+            setcolor5("black"),setbackgcolor5("#E5E5E5"),
+            setcolor6("black"),setbackgcolor6("#E5E5E5"),
+            setcolor7("white"),setbackgcolor7("#00A081")
+            ,  setcolor8("black"),setbackgcolor8("#E5E5E5")
+            ,
+            setcolor9("black"),setbackgcolor9("#E5E5E5"),
+            setcolor10("black"),setbackgcolor10("#E5E5E5")}}>
+
+    <Text style={{fontWeight:"bold",color:color7}}>1 PM</Text> 
+   
+    </TouchableOpacity>
+
+
+
+    <TouchableOpacity style={{  width:"20%",
+            backgroundColor:backgcolor8,
+            height:30,
+            borderRadius:5,
+            elevation:5,
+            justifyContent:"center",
+            alignItems:"center",
+            }}
+            onPress={() => { 
+            setcolor("black"),setbackgcolor("#E5E5E5"),
+            setcolor2("black"),setbackgcolor2("#E5E5E5"),
+            setcolor3("black"),setbackgcolor3("#E5E5E5"),
+            setcolor4("black"),setbackgcolor4("#E5E5E5"),
+            setcolor5("black"),setbackgcolor5("#E5E5E5"),
+            setcolor6("black"),setbackgcolor6("#E5E5E5"),
+            setcolor7("black"),setbackgcolor7("#E5E5E5"),
+            setcolor8("white"),setbackgcolor8("#00A081"),
+            setcolor9("black"),setbackgcolor9("#E5E5E5"),
+            setcolor10("black"),setbackgcolor10("#E5E5E5")}}>
+
+    <Text style={{fontWeight:"bold", color:color8}}>3 PM</Text> 
+   
+    </TouchableOpacity>
+
+</View>
+
+<View style={styles.container}>
+
+    
+
+    <TouchableOpacity style={{  width:"20%",
+            backgroundColor:backgcolor9,
+            height:30,
+            borderRadius:5,
+            elevation:5,
+            justifyContent:"center",
+            alignItems:"center",
+            }}
+            onPress={() => { 
+            setcolor("black"),setbackgcolor("#E5E5E5"),
+            setcolor2("black"),setbackgcolor2("#E5E5E5"),
+            setcolor3("black"),setbackgcolor3("#E5E5E5"),
+            setcolor4("black"),setbackgcolor4("#E5E5E5"),
+            setcolor5("black"),setbackgcolor5("#E5E5E5"),
+            setcolor6("black"),setbackgcolor6("#E5E5E5"),
+            setcolor7("black"),setbackgcolor7("#E5E5E5"),
+            setcolor8("black"),setbackgcolor8("#E5E5E5"),
+            setcolor9("white"),setbackgcolor9("#00A081"),
+            setcolor10("black"),setbackgcolor10("#E5E5E5")}}>
+
+    <Text style={{fontWeight:"bold",color:color9}}>5 PM</Text> 
+   
+    </TouchableOpacity>
+
+
+    <TouchableOpacity style={{  width:"20%",
+            backgroundColor:backgcolor10,
+            height:30,
+            borderRadius:5,
+            elevation:5,
+            justifyContent:"center",
+            alignItems:"center",
+            }}
+            onPress={() => { 
+            setcolor("black"),setbackgcolor("#E5E5E5"),
+            setcolor2("black"),setbackgcolor2("#E5E5E5"),
+            setcolor3("black"),setbackgcolor3("#E5E5E5"),
+            setcolor4("black"),setbackgcolor4("#E5E5E5"),
+            setcolor5("black"),setbackgcolor5("#E5E5E5"),
+            setcolor6("black"),setbackgcolor6("#E5E5E5"),
+            setcolor7("black"),setbackgcolor7("#E5E5E5"),
+            setcolor8("black"),setbackgcolor8("#E5E5E5"),
+            setcolor9("black"),setbackgcolor9("#E5E5E5"),
+            setcolor10("white"),setbackgcolor10("#00A081")}}>
+
+    <Text style={{fontWeight:"bold",color:color10}}>6 PM</Text> 
+   
+    </TouchableOpacity>
+
+
+
+    <TouchableOpacity  style={styles.cards2}>
+
+    <Text style={{fontWeight:"bold"}}></Text> 
+   
+    </TouchableOpacity>
+
+</View>
+
+
+
+
+
+    </>
+  );
+    
+}
+
+
+const styles = StyleSheet.create({
+
+  container: {
+
+    padding:10,
+    justifyContent:"space-around",
+    alignItems:"center",
+    flexDirection:"row",
+    marginTop:20,
+   
+  },
+
+  
+  cards:{
+
+    width:"20%",
+    backgroundColor:"#E5E5E5",
+    height:30,
+    borderRadius:5,
+    elevation:5,
+    justifyContent:"center",
+    alignItems:"center",
+    color:"black",
+  },
+
+  cards2:{
+
+    width:"20%",
+    backgroundColor:"transperant",
+    height:30,
+    borderRadius:5,
+    justifyContent:"center",
+    alignItems:"center",
+    color:"black"
+  },
+
+
+
+})
+
+
+export default Mbtns;
